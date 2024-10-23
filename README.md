@@ -1,16 +1,22 @@
 # jobs-app
 
-This template should help get you started developing with Vue 3 in Vite.
+> [!NOTE]
+> This is a pet project.
 
-## Recommended IDE Setup
+> [!IMPORTANT]
+> This project requires an [API](https://rapidapi.com/Pat92/api/jobs-api14).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+A simple job listing app built with [Vue3](https://vuejs.org/) and [Vite](https://vite.dev/).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+**Project Goals:**
++ Practice with Vue3 and Vite
++ Work with an API
++ Use Stores
++ Write some tests
 
 ## Project Setup
+> [!WARNING]
+> Fill in the `.env` file. Use `.env.sample` as a reference.
 
 ```sh
 npm install

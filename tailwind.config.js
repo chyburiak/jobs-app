@@ -13,6 +13,9 @@ export default {
       container: {
         center: true,
       },
+      maxHeight: {
+        '40vh': '40vh',
+      }
     },
   },
   plugins: [],

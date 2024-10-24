@@ -13,8 +13,16 @@ const props = defineProps({
 
 <template>
   <label :for="props.id" :class="[wrapper, 'h-max']">
-    <span v-if="props.label" class="text-white text-base font-semibold">{{ props.label }}</span>
+    <span v-if="props.label" class="text-white text-base font-semibold">{{
+      props.label
+    }}</span>
 
-    <input :id="props.id" :type="props.type" :value="props.value" :placeholder="props.placeholder" :class="props.class" />
+    <input
+      :id="props.id"
+      :type="props.type"
+      :value="props.value"
+      :placeholder="props.placeholder"
+      :class="props.class"
+    />
   </label>
 </template>

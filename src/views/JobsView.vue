@@ -1,5 +1,5 @@
 <script setup>
-import JobSearchBar from '@/components/search/JobSearchBar.vue';
+import JobSearchBar from '@/components/search/JobSearchBar.vue'
 </script>
 
 <template>

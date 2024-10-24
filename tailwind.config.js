@@ -7,7 +7,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'primary': ['"Inter", sans-serif'],
+        'primary': ['"Open Sans", sans-serif'],
+        'app-name': ['"Passion One", sans-serif'],
+      },
+      container: {
+        center: true,
       },
     },
   },

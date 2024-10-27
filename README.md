@@ -1,7 +1,7 @@
 # jobs-app
 
 > [!NOTE]
-> This is a pet project.
+> This is a pet project and is not safe for use in any production environment..
 
 > [!IMPORTANT]
 > This project requires an [API](https://rapidapi.com/Pat92/api/jobs-api14).

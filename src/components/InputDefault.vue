@@ -1,14 +1,20 @@
 <script setup>
+import { defineProps, defineEmits } from 'vue'
+
 const props = defineProps({
-  type: String,
+  modelValue: String,
+  type: {
+    type: String,
+    default: 'text',
+  },
   label: String,
-  placeholder: String,
-  value: String,
-  // icon: String,
   id: String,
   class: String,
   wrapper: String,
+  placeholder: String,
 })
+
+const emit = defineEmits(['update:modelValue'])
 </script>
 
 <template>
@@ -20,7 +26,8 @@ const props = defineProps({
     <input
       :id="props.id"
       :type="props.type"
-      :value="props.value"
+      :value="props.modelValue"
+      @input="event => emit('update:modelValue', event.target.value)"
       :placeholder="props.placeholder"
       :class="props.class"
     />

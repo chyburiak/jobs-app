@@ -1,10 +1,11 @@
 # jobs-app
 
 > [!NOTE]
-> This is a pet project.
+> This is a pet project and is not safe for use in any production environment..
 
 > [!IMPORTANT]
 > This project requires an [API](https://rapidapi.com/Pat92/api/jobs-api14).
+> Decided to not continue with this project, because of API Free plan limits.
 
 A simple job listing app built with [Vue3](https://vuejs.org/) and [Vite](https://vite.dev/).
 

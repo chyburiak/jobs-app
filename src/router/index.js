@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import JobsView from '../views/JobsView.vue'
-import SalaryRangeView from '../views/SalaryRangeView.vue'
+import HomeView from '@/views/HomeView.vue'
+import JobsView from '@/views/JobsView.vue'
+import SalaryRangeView from '@/views/SalaryRangeView.vue'
+import SingleJobView from '@/views/SingleJobView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,6 +16,11 @@ const router = createRouter({
       path: '/jobs',
       name: 'jobs',
       component: JobsView,
+    },
+    {
+      path: '/jobs/single',
+      name: 'jobs-single',
+      component: SingleJobView,
     },
     {
       path: '/salary-range',

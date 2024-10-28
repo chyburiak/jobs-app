@@ -10,7 +10,7 @@ const activeLinkClasses =
 </script>
 
 <template>
-  <main class="w-full min-h-screen flex flex-col font-primary">
+  <main class="w-full min-h-screen flex flex-col font-primary select-none">
     <header class="w-full py-8" role="banner" aria-label="Header">
       <div class="container flex justify-between">
         <h1 class="uppercase font-bold text-5xl font-app-name">jobs app</h1>

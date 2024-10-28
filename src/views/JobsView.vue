@@ -9,11 +9,6 @@ const api = useAPI
 const data = ref(null)
 const error = ref(null)
 
-fetch(`https://${}`)
-  .then((res) => res.json())
-  .then((json) => (data.value = json))
-  .catch((err) => (error.value = err))
-
 const fakeJobList = [
   {
     title: 'Software Engineer',
